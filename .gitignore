@@ -1,0 +1,40 @@
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+MANIFEST
+*.whl
+*.tar.gz
+pip-wheel-metadata/
+develop-eggs/
+sdist/
+wheels/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
