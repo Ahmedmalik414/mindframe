@@ -8,7 +8,7 @@ from .generator import create_project
 console = Console()
 
 def main():
-    console.print(Panel.align("[bold blue]🧠 Mindframe[/bold blue]\n[italic]Structure first. Intelligence second.[/italic]", align="center"))
+    console.print(Panel("[bold blue]🧠 Mindframe[/bold blue]\n[italic]Structure first. Intelligence second.[/italic]", expand=False))
     
     parser = argparse.ArgumentParser(description="Mindframe CLI - GenAI Project Scaffolder")
     subparsers = parser.add_subparsers(dest="command")
