@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mindframe"
+version = "0.1.0"
+description = "A scaffolding tool for Generative AI projects"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "argparse",
+]
+
+[project.scripts]
+mindframe = "mindframe.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mindframe*"]
+
+[tool.setuptools.package-data]
+mindframe = ["templates/project/**/*"]

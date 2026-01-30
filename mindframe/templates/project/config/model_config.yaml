@@ -1,0 +1,7 @@
+# Model settings and API keys
+openai:
+  model: gpt-4
+  temperature: 0.7
+anthropic:
+  model: claude-3-opus
+  temperature: 0.5
