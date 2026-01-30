@@ -16,8 +16,6 @@ Most GenAI projects start as "spaghetti code." Mindframe solves this by providin
 
 ### ✨ Key Features
 - **🏗️ Industrial Scaffolding**: Initialize a full, professional project structure in seconds.
-- **✨ Interactive CLI**: Use `mindframe init` for a guided setup experience with `questionary`.
-- **🚀 Instant Playground**: Every project comes with a built-in Streamlit UI (`playground.py`) to test your AI logic immediately.
 - **🧱 Layered Architecture**: Dedicated boundaries for Domain Logic, LLM Abstractions, Knowledge/RAG, Orchestration, and Evaluation.
 - **🤖 Agentic Native**: Seamlessly transition from simple RAG to autonomous agent systems with built-in memory and tool patterns.
 - **🔌 Model Agnostic**: Effortlessly switch between OpenAI, Anthropic, or Local models (Ollama/Llama) with production-ready base classes.
